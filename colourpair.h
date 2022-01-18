@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <assert.h>
 
-extern int GetPairNumberFromColor(const ColorPair* colorPair);
-extern void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-extern ColorPair GetColorFromPairNumber(int pairNumber);
-extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
-extern const char* MajorColorNames;
-extern const char* MinorColorNames;
+int GetPairNumberFromColor(const ColorPair* colorPair);
+void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
+ColorPair GetColorFromPairNumber(int pairNumber);
+void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
+const char* MajorColorNames;
+const char* MinorColorNames;
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-extern int numberOfMajorColors;
-extern int numberOfMinorColors;
+int numberOfMajorColors;
+int numberOfMinorColors;
 
 typedef struct {
     enum MajorColor majorColor;
