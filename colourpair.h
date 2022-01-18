@@ -4,7 +4,7 @@
 extern int GetPairNumberFromColor(const ColorPair* colorPair);
 extern void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-ColorPair GetColorFromPairNumber(int pairNumber);
+extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
