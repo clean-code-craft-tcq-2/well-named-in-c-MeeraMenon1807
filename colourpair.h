@@ -18,5 +18,5 @@ void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorC
 int numberOfMajorColors;
 int numberOfMinorColors;
 
-#define MAX_COLORPAIR_NAME_CHARS = 16;
+#define MAX_COLORPAIR_NAME_CHARS 16
 
