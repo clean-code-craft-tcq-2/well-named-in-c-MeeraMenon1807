@@ -9,8 +9,8 @@ extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum
 extern const char* MajorColorNames;
 extern const char* MinorColorNames;
 
-extern enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-extern enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 extern int numberOfMajorColors;
 extern int numberOfMinorColors;
