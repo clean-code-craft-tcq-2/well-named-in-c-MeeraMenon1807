@@ -21,5 +21,5 @@ const char* MinorColorNames;
 int numberOfMajorColors;
 int numberOfMinorColors;
 
-const int MAX_COLORPAIR_NAME_CHARS = 16;
+#define MAX_COLORPAIR_NAME_CHARS = 16;
 
