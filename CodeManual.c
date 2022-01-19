@@ -1,4 +1,4 @@
-#include "ColorPair.h"
+#include "colorpair.h"
 
 void ColorNamesToString(const ColorPair* colorPair, char* MajorColorbuffer, char* MinorrColorbuffer)
  {
