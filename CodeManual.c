@@ -6,12 +6,11 @@ void ColorNamesToString(const ColorPair* colorPair, char* MajorColorbuffer, char
     sprintf(MinorrColorbuffer, "%s", MinorColorNames[colorPair->minorColor]);
  }
 
-
 void ColourCodeManual()
  {
   int TotalColorPairNum = numberOfMajorColors * numberOfMinorColors;
   printf("COLOR CODE MANUAL\n");
-	for (int ColorNum= 1 ; ColorNum <= TotalColorPairNum ; ColorNumber++)
+	for (int ColorNum= 1 ; ColorNum <= TotalColorPairNum ; ColorNum++)
 	{
 	  ColorPair colorPair = GetColorFromPairNumber(ColorNumber);
 	  char MajorColorName[MAX_COLORPAIR_NAME_CHARS/2];
