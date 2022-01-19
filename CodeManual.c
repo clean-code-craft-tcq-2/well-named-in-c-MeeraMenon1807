@@ -16,7 +16,7 @@ void ColourCodeManual()
 	  char MajorColorName[MAX_COLORPAIR_NAME_CHARS/2];
 	  char MinorColorName[MAX_COLORPAIR_NAME_CHARS/2];  
 	  ColorNamesToString(&colorPair,MajorColorName,MinorColorName);
-	  printf("Pair Number : %d \n Major Color Name : %s\n  Minor Color Name : %s\n", ColorNum, MajorColorName, MinorColorName);
+	  printf("Pair Number : %d \nMajor Color Name : %s\nMinor Color Name : %s\n", ColorNum, MajorColorName, MinorColorName);
 	  
 	}
  }
