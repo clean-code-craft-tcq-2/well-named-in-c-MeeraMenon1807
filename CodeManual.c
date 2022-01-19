@@ -9,7 +9,7 @@ void ColorNamesToString(const ColorPair* colorPair, char* MajorColorbuffer, char
 void ColourCodeManual()
  {
   int TotalColorPairNum = numberOfMajorColors * numberOfMinorColors;
-  printf("COLOR CODE MANUAL\n");
+  printf("\nCOLOR CODE MANUAL\n*****************");
 	for (int ColorNum= 1 ; ColorNum <= TotalColorPairNum ; ColorNum++)
 	{
 	  ColorPair colorPair = GetColorFromPairNumber(ColorNum);
