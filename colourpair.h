@@ -14,6 +14,7 @@ void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
 void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
+void ColourCodeManual();
 
 const char* MajorColorNames[];
 const char* MinorColorNames[];
